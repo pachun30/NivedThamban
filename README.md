@@ -3,18 +3,21 @@
 Personal portfolio site highlighting Senior Software Engineering experience, .NET backend development, enterprise integrations, and the transition toward Forward Deployed Engineering / applied AI.
 
 ## Tech
-- Static HTML and CSS
+- Static HTML with embedded CSS and JavaScript
 - Responsive layout
 - No build step or package installation
-- Hosted with GitHub Pages
+- GitHub Pages deployment using GitHub Actions
 
-## Publish
-This repository is named `NivedThamban`. To publish it as a GitHub Pages project site:
+## Publish the site
+This repository is `pachun30/NivedThamban` and is currently private.
+
 1. Open **Settings → Pages**.
-2. Set **Build and deployment → Source** to **GitHub Actions**.
-3. Pushes to `main` trigger the Pages workflow.
+2. Select **GitHub Actions** as the publishing source.
+3. GitHub Pages will run the workflow on the next push to `main`.
+4. After a successful deployment, the project site URL will be:
+   `https://pachun30.github.io/NivedThamban/`
 
-The project URL will be `https://pachun30.github.io/NivedThamban/` after Pages is enabled and the workflow succeeds.
+**Plan requirement:** GitHub Pages is available for public repositories on GitHub Free. Publishing from a private repository requires GitHub Pro, GitHub Team, or GitHub Enterprise. A Pages site is publicly accessible on the internet even when its source repository is private (subject to plan eligibility).
 
 ## Before public launch
 - Add your actual LinkedIn profile URL.
